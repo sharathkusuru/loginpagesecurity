@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+</head>
+<body>
+<h1> LoginScreen</h1>
+<div>
+<form name="f" th:action="@{login}" method="post">
+
+<fieldset>
+
+<legend> Login Page </legend>
+
+
+<label for="username"> username</label>
+<input type="text" id="username" name="username"/>
+<label for="password"> password</label>
+<input type="text" id="password" name="password"/>
+<div class="form-actions">
+<button type="submit" class ="btn">Log in</button>
+</div>
+</fieldset>
+
+</form>
+
+</div>
+</body>
+</html>
